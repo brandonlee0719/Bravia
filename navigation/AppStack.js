@@ -1,12 +1,9 @@
 import * as React from 'react';
-import { Image } from 'react-native';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { Ionicons, Feather, SimpleLineIcons  } from '@expo/vector-icons';
 
-import { HomeScreen } from '../screens';
-import { MapScreen } from '../screens';
-import { BookmarkScreen } from '../screens';
-import { ProfileScreen } from '../screens';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import { Ionicons, Feather, SimpleLineIcons } from '@expo/vector-icons';
+
+import { HomeScreen, MapScreen, BookmarkScreen, ProfileScreen } from '../screens';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -40,7 +37,7 @@ export const AppStack = () => {
         options={{
           tabBarIcon: () => <Ionicons name="ios-bookmarks-outline" size={24} color="black" />,
         }}
-      /> 
+      />
       <Tab.Screen
         name="Profile"
         component={ProfileScreen}
