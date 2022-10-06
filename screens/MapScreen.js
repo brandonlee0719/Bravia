@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
-export const HomeScreen = () => {(
+export const MapScreen = () => {(
     <View style={styles.container}>
-      <Text style={styles.title}>Home Screen</Text>
+      <Text style={styles.title}>Map Screen</Text>
     </View>
   );
 };

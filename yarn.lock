@@ -2158,6 +2158,14 @@
   resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-1.3.6.tgz#fa700318528db93f05144b1be4b691b9c1dd1abe"
   integrity sha512-pNJ8R9JMga6SXOw6wGVN0tjmE6vegwPmJBL45SEMX2fqTfAk2ykDnlJHodRpHpAgsv0DaI8qX76z3A+aqKSU0w==
 
+"@react-navigation/material-top-tabs@^6.2.4":
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/@react-navigation/material-top-tabs/-/material-top-tabs-6.2.4.tgz#1db5a1bf32525e1c9dd8aa77cd549366034d4f77"
+  integrity sha512-Il9rPA3jXAFTPBzk88sjCbSRHRRrr1e6HFRx3G+ttSr6q5HQkasksQiEe28euouSwv8M7ChEbXnhNWIR+Sroqg==
+  dependencies:
+    color "^4.2.3"
+    warn-once "^0.1.0"
+
 "@react-navigation/native@^6.0.11":
   version "6.0.13"
   resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-6.0.13.tgz#ec504120e193ea6a7f24ffa765a1338be5a3160a"
@@ -3567,6 +3575,11 @@ expo-modules-core@0.11.6:
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
+
+expo-status-bar@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.4.0.tgz#c0317de2c53878340f4b4f00ff7e4ba14399a7fb"
+  integrity sha512-vh98g8qMIjig/2XTBsoAWS6Vo2dIIwDWjB3/GiuZ9Lazpxc9GO/APfJ4dar7MibzIDUKIrjotrcL6rLdPH13Ew==
 
 expo@^46.0.0:
   version "46.0.14"
@@ -6114,6 +6127,11 @@ react-native-keyboard-aware-scroll-view@^0.9.4:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
 
+react-native-pager-view@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-pager-view/-/react-native-pager-view-6.0.1.tgz#353abf38d3c2b91ed7c586f10af0f94700f5b1dc"
+  integrity sha512-kOVNu+4JnR3Gpykviy4WbOAnQz8TgP6O2pRvne221oPUDQLYrvEE/FINR0P85TxbMgvKTPlLejGw0ZHQbezK/g==
+
 react-native-reanimated@~2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.9.1.tgz#d9a932e312c13c05b4f919e43ebbf76d996e0bc1"
@@ -6140,6 +6158,11 @@ react-native-screens@~3.15.0:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-tab-view@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-3.2.1.tgz#1da975203ef30996c412f9c2808bb81e12c3376f"
+  integrity sha512-/3htrnDJ8hXXO6M5tDKgGPan5NhiVG4oN6SH8LgQtbAO2y+YI104sjlbPOxhLUBpbj43tOQerUtJF7ENcHEPaw==
 
 react-native-web@~0.18.7:
   version "0.18.9"

@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { onAuthStateChanged } from 'firebase/auth';
+import { StatusBar } from 'expo-status-bar';
 
 import { AuthStack } from './AuthStack';
 import { AppStack } from './AppStack';
@@ -32,6 +33,7 @@ export const RootNavigator = () => {
 
   return (
     <NavigationContainer>
+      <StatusBar hidden />
       {user ? <AppStack /> : <AuthStack />}
     </NavigationContainer>
   );
