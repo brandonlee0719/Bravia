@@ -107,6 +107,14 @@ export const LoginScreen = ({ navigation }) => {
           />
         </KeyboardAwareScrollView>
       </View>
+      <View style={styles.footer}>
+        <Button
+          style={styles.borderlessButtonContainer}
+          borderless
+          title={'Continue as a Guest'}
+          onPress={() => handleLogin({email: "guest@bravia.com", password: "password"})}
+        />
+      </View>
     </>
   );
 };
